@@ -1,0 +1,16 @@
+
+# RGB-Thermal Fusion YOLO configuration
+# NOTE: Update 'path' with your absolute path
+path: /Users/user/py/waterfowl_project/raw_data/yolo_dataset_fused
+
+# Dataset splits
+train: images/train
+val: images/val
+test: images/test
+
+# Class definitions
+names:
+  0: waterfowl
+
+# Number of classes
+nc: 1

@@ -1,0 +1,37 @@
+# Large dataset folders
+yolo_dataset_thermal_only/
+yolo_dataset_fused/
+01_Positive_Image/
+03_Negative_Images/
+01_RGB_Images/
+
+# Model weights and training runs
+runs/
+*.pt
+*.pth
+*.weights
+
+# Dataset files
+*.tif
+*.tiff
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.zip
+*.tar.gz

@@ -135,7 +135,7 @@ Our Fusion:    [Thermal, G, R]
 ### Key Observations
 
 **Thermal-Only**:
-- mAP50: [Your Result]
+- mAP50: 0.905 (90.5% detection accuracy)
 - Good performance considering low resolution
 - Fast inference suitable for edge deployment
 

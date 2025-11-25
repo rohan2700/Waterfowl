@@ -129,8 +129,8 @@ Our Fusion:    [Thermal, G, R]
 
 ### Training Progress
 
-![Thermal Results](results/thermal_results.png)
-![Fusion Results](results/fusion_results.png)
+![Thermal Results](results/Thermal_detection.png)
+![Fusion Results](results/rgb_fused_detection.png)
 
 ### Key Observations
 
@@ -283,8 +283,8 @@ waterfowl_detection/
 # Must scale coordinates from thermal to RGB space
 x_scaled = x_thermal * (rgb_width / thermal_width)
 y_scaled = y_thermal * (rgb_height / thermal_height)
-```
 **Failure to scale = boxes in wrong locations!**
+```
 
 ### 4. Small Object Detection Challenges
 - Even with fusion, 7×7 pixel objects are difficult
@@ -326,10 +326,10 @@ y_scaled = y_thermal * (rgb_height / thermal_height)
 
 ## 🔮 Future Work
 
-1. **Dataset Expansion**
-   - Collect more diverse environments
-   - Include varied bird sizes/distances
-   - Multiple species classification
+1. **Matrix based manual mapping**
+   - Manual label mappings
+   - Thermal to RGB conversion matrix
+   - Analyse and try overlapping completely
 
 2. **Architecture Improvements**
    - Late fusion (ensemble approach)

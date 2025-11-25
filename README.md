@@ -103,9 +103,9 @@ Wildlife conservation increasingly relies on UAVs for non-invasive monitoring. M
 **Fusion Strategy**:
 ```
 Standard RGB:  [R, G, B]
-Our Fusion:    [Thermal, G, R]
-                ↑
-         Replace Blue with Thermal
+Our Fusion:    [R, G, Thermal]
+                         ↑
+             Replace Blue with Thermal
 ```
 
 **Why This Works**:
@@ -253,9 +253,10 @@ waterfowl_detection/
 ├── .gitignore                         # Git ignore rules
 │
 ├── results/                           # Sample results
-│   ├── thermal_results.png
-│   ├── fusion_results.png
-│   └── sample_detections.jpg
+│   ├── Thermal_detection.png
+│   ├── rgb_fused_detection.png
+│   └── sample_dataset.jpg
+│   └── Results.pptx
 │
 └── [Dataset folders - not uploaded]
     ├── 01_Positive_Image/

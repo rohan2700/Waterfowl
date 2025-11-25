@@ -2,7 +2,7 @@
 
 Automated detection of waterfowl in aerial imagery using deep learning for wildlife conservation. This project implements YOLOv8 for real-time object detection, comparing thermal-only and RGB-thermal fusion approaches.
 
-![Sample Detection](results/Thermal_detection.png)
+![Sample Detection](results/sample_dataset.png)
 
 ---
 

@@ -120,12 +120,12 @@ Our Fusion:    [Thermal, G, R]
 
 ### Quantitative Comparison
 
-| Metric | Thermal-Only | RGB-Thermal Fusion | Improvement |
+| Metric | Thermal-Only | RGB-Thermal Fusion | Winning Model |
 |--------|--------------|-------------------|-------------|
-| **mAP50** | [Your Result] | 0.834 | +XX% |
-| **mAP50-95** | [Your Result] | 0.371 | +XX% |
-| **Precision** | [Your Result] | [Your Result] | +XX% |
-| **Recall** | [Your Result] | [Your Result] | +XX% |
+| **mAP50** | 0.905 | 0.783 | Thermal |
+| **mAP50-95** | 0.489 | 0.358 | Thermal |
+| **Precision** | 0.868 | 0.918 | RGB-Fused |
+| **Recall** | 0.885 | 0.641 | Thermal |
 
 ### Training Progress
 
